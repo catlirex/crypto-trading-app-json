@@ -1,16 +1,75 @@
 {
-  "posts":[
+  "user": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "id": "catherineli",
+      "name": "Catherine",
+      "password": "000000",
+      "accountBalance": 10000,
+      "holdingCoins": [
+        {
+          "id": "bitcoin",
+          "quantity": 1,
+          "avgBuyInPrice": 27500
+        }
+      ]
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": "cat",
+      "name": "Cath",
+      "password": "111",
+      "accountBalance": 932761.9697999998,
+      "holdingCoins": [
+        {
+          "id": "bitcoin",
+          "quantity": 2,
+          "avgBuyInPrice": 28198
+        },
+        {
+          "id": "cosmos",
+          "quantity": 600,
+          "avgBuyInPrice": 9.61909090909091
+        },
+        {
+          "id": "polkadot",
+          "quantity": 100,
+          "avgBuyInPrice": 16.05
+        },
+        {
+          "id": "nano",
+          "quantity": 300,
+          "avgBuyInPrice": 4.273333333333334
+        },
+        {
+          "id": "tether",
+          "quantity": 500,
+          "avgBuyInPrice": 0.719398
+        },
+        {
+          "id": "binancecoin",
+          "quantity": 10,
+          "avgBuyInPrice": 251.24
+        }
+      ]
+    },
+    {
+      "id": "test",
+      "name": "test",
+      "password": "test",
+      "accountBalance": 9713.4,
+      "holdingCoins": [
+        {
+          "id": "solana",
+          "quantity": 10,
+          "avgBuyInPrice": 28.66
+        }
+      ]
+    },
+    {
+      "id": "test1",
+      "name": "testing1",
+      "password": "111",
+      "accountBalance": 100,
+      "holdingCoins": []
     }
   ]
 }
