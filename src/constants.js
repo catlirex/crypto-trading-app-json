@@ -5,7 +5,7 @@ export const CRIPTO_LIST = `${API}/coins/markets?vs_currency=gbp`;
 export const getCriptoUpdateUrl = (id) =>
   `${API}/simple/price?ids=${id}&vs_currencies=gbp&include_last_updated_at=true`;
 
-const LOCAL_DB = "http://localhost:4000";
+const LOCAL_DB = "http://localhost:3000";
 
 export function getUser(id) {
   return fetch(`${LOCAL_DB}/user/${id}`).then((response) => response.json());
